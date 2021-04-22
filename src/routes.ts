@@ -22,7 +22,7 @@ const json = {
 
 const routes = Router();
 
-routes.get("/podcast/", (request, response)=>{
+routes.get("/", (request, response)=>{
   
   response.json(json)
 
